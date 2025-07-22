@@ -1,0 +1,17 @@
+#a0{
+        text-decoration: underline;
+        color: chocolate;
+        font-style: normal;
+    }
+    #a1{
+        font-style: italic;
+        color: chartreuse;
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #a2{
+       font-style: italic;
+       color: rgb(125, 12, 12);
+       font-size: 30px;
+       font-family: 'Courier New', Courier, monospace;
+    }
