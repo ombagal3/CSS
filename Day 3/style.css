@@ -1,0 +1,130 @@
+.body{
+    align-items: center;
+}
+.box{
+    width: 800px;
+    height: 800px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+.box1{
+    width: 550px;
+    height: 550px;
+    margin: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+.img{
+    width: 450px;
+    height: 450px;
+    margin: 50px;
+    box-shadow: 0px 0px 20px rgb(104, 197, 17);
+    border-radius: 10px;
+    display: flex;
+}
+.box3{
+    width:490px;
+    height:900px;
+    margin: 40px;
+    background-color: rgb(160, 160, 182);
+    border: 6px solid blue;
+     align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}   
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: start;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.box4{
+    width: 400px;
+    height: 350px;
+    margin: 50px;
+    background-color:whitesmoke;
+    padding: 2px;
+    box-shadow: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 400px;
+    
+}
+.box2{
+     width: 180px;           /* width of the circle */
+            height: 180px;          /* height of the circle */
+            background-color: #41a1e1; /* circle color */
+            border-radius: 50%; 
+            display: flex;
+            margin-left: 2px;
+            justify-content: center;
+            border: solid 5px greenyellow;
+}
+.box5{
+    width: 700px;
+    height: 700px;
+    margin: 50px;
+    margin-bottom: 100px;
+    background: gainsboro;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+.box6{
+    width: 600px;
+    height: 600px;
+    margin: 50px;
+    background-color:whitesmoke;
+    padding: 2px;
+    box-shadow: 20px;
+    border-radius: 10px;
+    justify-content: end;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 400px;
+}
+#img1{
+    height: 170px;
+    width: 170px;
+    border-radius: 6px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 400px;
+}
+#n1{
+    color: rgb(43, 43, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    margin-left: 50px;
+  flex-direction: column;
+    align-content: center;
+    font-weight: bold;
+}
+.insta{
+    display: flex;
+    width: 606px;
+    font-size: 25px;
+    align-items: start;
+    justify-content: center;
+    align-content: start;
+    gap: 15px;
+    margin-bottom: 15px;
+    background: #9a9292;
+}
+.sub{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #555;
+    justify-content: center;
+}
