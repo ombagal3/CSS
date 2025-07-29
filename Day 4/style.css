@@ -1,0 +1,74 @@
+body{
+    background: #000;
+
+}
+.squer{
+    display: flex;
+    justify-content: space-between;
+}
+.i1{
+    width: 150px;
+    height: 150px;
+}
+.home{
+    font-size: 20px;;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+}
+button{
+    color:black;
+    background-color: #20b37f;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    margin-top: 50px;
+    margin-right: 20px;
+
+}
+.s1{
+    display: flex;
+    justify-content: center;
+
+}
+.i2{
+    width: 470px;
+    height: 550px;
+    margin-top: 100px;
+    
+}
+.box1{
+   display: flex;
+    justify-content: space-between;  
+}
+.box2{
+ 
+     margin-right: 450px;
+     margin-top: 100px;
+
+}
+.t1{
+    color: #20b37f;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.t2{
+    color:white ;
+    font-size: 50px;
+}
+.t3{
+    color: #20b37f;
+    font-size: 50px;
+}
+.t4{
+    color: aliceblue;
+}
+.t5{
+ background-color: #000;
+ height: 20px;
+ width: 150px;
+ color:#20b37f;
+ border:3px solid #20b37f;
+ padding: 20px;
+  margin-bottom: 30px;
+}
