@@ -1,0 +1,60 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.parreler{
+height: 100vh;
+display: flex;
+justify-content:center;
+
+}
+.r1{
+    background-image: url("https://www.nomadicmatt.com/wp-content/uploads/2015/03/newtraveler3.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.r2{
+    height: 150px;
+    width: 100%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:beige;
+}
+h1{
+    
+}
+.r3{
+    background-image: url("https://images.pexels.com/photos/2516418/pexels-photo-2516418.jpeg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.r4{
+    height: 150px;
+    width: 100%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
+}
+.r5{
+    background-image: url("https://www.nomadicmatt.com/wp-content/uploads/2015/03/newtraveler3.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.r6{
+    height: 150px;
+    width: 100%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
+}
+.r7{
+    background-image: url("https://images.pexels.com/photos/2516418/pexels-photo-2516418.jpeg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
