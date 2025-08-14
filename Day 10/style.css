@@ -1,0 +1,71 @@
+header {
+    background-color:black;
+    height: 100px;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+}
+body{
+    
+}
+.main{
+    display: flex;
+    gap: 2px;
+    padding-top: 5px;
+}
+.box{
+    height: 1000px;
+    width: 20%;
+    border: 1px solid black;
+    
+}
+.box1{
+    height: 100%;
+    width: 80%;
+    border: 1px solid black;
+    
+}
+img {
+    width: 200px;
+    height: 150px;
+    padding: 7px;
+    border: 1px solid black;
+}
+h1{
+    padding: 5px;
+}
+p{
+    padding: 15px;
+}
+div p{
+    color: black;
+}
+div > p{
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: 24px;
+    color: red;
+}
+p::first-line{
+    text-transform: uppercase;
+}
+p::selection{
+    background: yellow;
+    color: black;
+}
+.list-item li:first-child{
+    color: green;
+}
+.list-item li:last-child{
+    color: purple;
+}
+.list-item li:nth-child(2){
+    font-weight: bold;
+}
+.list-item li:nth-child(2){
+    font-style: italic;
+}
