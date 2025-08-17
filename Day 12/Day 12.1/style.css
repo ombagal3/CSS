@@ -1,0 +1,94 @@
+body{
+    height: 100vh;
+    width: 100%;
+    
+}
+.box-1{
+    
+}
+
+.display{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: dimgray;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.box-2{
+    height: 300px;
+    width: 100%;
+    background-color:yellowgreen;
+    display: flex;
+    color: black;
+    
+    
+}
+.model{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(236, 204, 133);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.box-2{
+    display: flex;
+    justify-content: flex-start;
+}
+.ab{
+    display: flex;
+    justify-content: flex-end;
+}
+.a1{
+    display: flex;
+    justify-content: center;
+}
+.a2{
+    display: flex;
+    justify-content: space-between;
+}
+.a3{
+    display: flex;
+    justify-content: space-around;
+}
+.a4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.a5{
+    display: flex;
+    align-items: flex-start;
+}
+.aa{
+    display: flex;
+    align-items: flex-end;
+}
+.a7{
+    display: flex;
+    align-items: center;
+}
+.a8{
+    display: flex;
+    align-items: stretch;
+}
+.a9{
+    display: flex;
+    align-content: space-between;
+}
+.a10{
+    display: flex;
+    align-items: space-around;
+}
+.a11{
+    display: flex;
+    align-items: space-evenly;
+}
