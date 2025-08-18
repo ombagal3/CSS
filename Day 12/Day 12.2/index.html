@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-1">
+        <div class="display">
+            <h1>Display:Flex(child property) Flex-Basis</h1>
+           <ul><li>The flex-basis CSS property sets the initial main size of a flex item.It sets the size of the content box unless otherwise set with box-sizing</li></ul>
+       <div class="box-2 a1">
+        <div class="model model1">1 Flex-basis:Auto</div>
+        <div class="model model2">2 Flex-basis:20px</div>
+        <div class="model model3">3 Flex-basis: 30%</div>
+        <div class="model model4">4 Flex-basis:100px</div>
+     </div>
+    </div>
+    </div> 
+    <div class="box-1">
+        <div class="display">
+            <h1>Display:Flex(child property) Flex-Grow</h1>
+           <ul><li>The flex-grow CSS property sets the flex grow factor, which specifies how much of the flex container's positive free space, if any, should be assigned to the flex item's main size.</li>
+        <li>When the flex-container's main size is larger than the combined main sizes of its flex items, this positive free space can be distributed among the flex items, with each item's growth being their growth factor value as a proportion of the sum total of all the flex items' flex grow factors.</li></ul>
+       <div class="box-2 a1">
+        <div class="model grow"> Flex-grow:Auto</div>
+        <div class="model grow1"> Flex-grow:1;</div>
+        <div class="model grow2">Flex-grow: 2;</div>
+     </div>
+    </div>
+</div> 
+    <div class="box-1">
+        <div class="display">
+            <h1>Display:Flex(child property) Flex-Shrink</h1>
+           <ul><li>The flex-shrink CSS property sets the flex shrink factor, which specifies how much of the flex container's negative free space, if any, should be assigned to the flex item's main size.</li>
+        <li>When the flex-container's main size is smaller than the combined main sizes of its flex items, this negative free space can be distributed among the flex items, with each item's shrinkage being their shrink factor value as a proportion of the sum total of all the flex items' flex shrink factors.</li></ul>
+       <div class="box-2 a1">
+        <div class="model shrink"> Flex-shrink:0;</div>
+        <div class="model shrink1"> Flex-shrink:1;</div>
+        <div class="model shrink2">Flex-shrink: 2;</div>
+        <div class="model">1</div>
+        <div class="model">2</div>
+        <div class="model">3</div>
+        <div class="model">4</div>
+        <div class="model">5</div>
+        <div class="model">6</div>
+        <div class="model">7</div>
+        <div class="model">8</div>
+        <div class="model">9</div>
+        <div class="model">10</div>
+        <div class="model">11</div>
+        <div class="model">12</div>
+        <div class="model">13</div>
+     </div>
+    </div>
+    </div>
+    <div class="box-1">
+        <div class="display">
+            <h1>Display:Flex(child property) Order</h1>
+           <ul><li>The order CSS property sets the order to lay out an item in a flex or grid container. Items in a container are sorted by ascending order value and then by their source code order. Items not given an explicit order value are assigned the default value of 0..</li></ul>
+       <div class="box-2 a1">
+        <div class="model Order">Order:0;</div>
+        <div class="model Order1">Order:1</div>
+        <div class="model Order2">Order:2</div>
+        <div class="model">3</div>
+        <div class="model">4</div>
+        <div class="model">5</div>
+        <div class="model">6</div>
+        <div class="model">7</div>
+        <div class="model">8</div>
+        <div class="model">9</div>
+        <div class="model">10</div>
+        <div class="model">11</div>
+        <div class="model">12</div>
+        <div class="model">13</div>
+    </div>
+    </div>
+    </div>
+    <div class="box-1">
+        <div class="display">
+            <h1>Display:Flex(child property) Align-Self: Flex-start;</h1>
+           <ul><li>The align-self CSS property allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.</li>
+        <li>It accepts the same values as the align-items property, which means it can take the following values: auto, flex-start, flex-end, center, baseline, and stretch.</li></ul>
+        <li>The cross-start margin edge of the flex item is flushed with the cross-start edge of the line.</li>
+       <div class="box-2 a1">
+        <div class="model "> 1</div>
+        <div class="model self"> align-self: flex-start;</div>
+        <div class="model self">align-self: flex-start;</div>
+     </div>
+    </div>
+</div> 
+<div class="box-1">
+        <div class="display">
+            <h1>Display:Flex(child property) Align-Self: Flex-end;</h1>
+            <ul><li>The cross-end margin edge of the flex item is flushed with the cross-end edge of the line..</li>
+            </ul>
+             </div>
+    <div class="box-2 a1">
+        <div class="model end"> align-self: flex-end;</div>
+        <div class="model "> 2</div>
+        <div class="model end">align-self: flex-end;</div>
+     </div>
+   </div> 
+<div class="box-1">
+        <div class="display">
+            <h1>Display:Flex(child property) Align-Self: Flex-center;</h1>
+           <ul><li>The flex item's margin box is centered within the line on the cross-axis. If the cross-size of the item is larger than the flex container, it will overflow equally in both directions.</li>
+        </div>
+            <div class="box-2 a1">
+        <div class="model "> align-self: 1;</div>
+        <div class="model center"> align-self: center;</div>
+        <div class="model ">2</div>
+     </div>
+    </div> 
+<div class="box-1">
+        <div class="display">
+            <h1>Display:Flex(child property) Align-Self: stretch;</h1>
+           <ul><li>If the combined size of the items along the cross axis is less than the size of the alignment container and the item is auto-sized, its size is increased equally (not proportionally), while still respecting the constraints imposed by max-height/max-width (or equivalent functionality), so that the combined size of all auto-sized items exactly fills the alignment container along the cross axis..</li>
+    </div>
+            <div class="box-2 a1">
+        <div class="model stretch"> align-self: stretch;</div>
+        <div class="model "> 2</div>
+        <div class="model ">3</div>
+         <div class="model stretch"> align-self: stretch;</div>
+          <div class="model "> 2</div>
+        <div class="model ">3</div>
+         <div class="model "> 2</div>
+        <div class="model ">3</div>
+         <div class="model "> 2</div>
+        <div class="model ">3</div>
+         <div class="model "> 2</div>
+        <div class="model ">3</div>
+         <div class="model "> 2</div>
+        <div class="model ">3</div>
+        </div>
+   
+</div> 
+<div class="box-1">
+        <div class="display">
+            <h1>Display:Flex(child property) Align-Self: baseline;</h1>
+           <ul><li>Specifies participation in first- or last-baseline alignment: aligns the alignment baseline of the box's first or last baseline set with the corresponding baseline in the shared first or last baseline set of all the boxes in its baseline-sharing group. The fallback alignment for first baseline is start, the one for last baseline is end.</li></ul>
+    <div class="box-2 a1">
+        <div class="model ">  1</div>
+        <div class="model baseline"> 2</div>
+        <div class="model ">3</div>
+     </div>
+    </div>
+</div>
+
+</body>
+</html>

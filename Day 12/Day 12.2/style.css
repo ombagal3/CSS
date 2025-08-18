@@ -1,0 +1,96 @@
+body{
+    height: 100vh;
+    width: 100%;
+    
+}
+.box-1{
+    
+}
+
+.display{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: dimgray;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.box-2{
+    height: 300px;
+    width: 100%;
+    background-color:yellowgreen;
+    display: flex;
+    color: black;
+    
+    
+}
+.model{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(236, 204, 133);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+
+}
+.model1{
+    flex-basis: auto;
+}
+.model2{
+    flex-basis: 20px;
+}
+.model3{
+    flex-basis: 30%;
+}
+.model4{
+    flex-basis: 100px;
+}
+.grow{
+    flex-grow: auto;
+}
+.grow1{
+    flex-grow: 1;
+}
+.grow2{
+    flex-grow: 2;
+}
+.shrink{
+    flex-shrink: 0;
+}
+.shrink1{
+    flex-shrink: 1;
+}
+.shrink2{
+    flex-shrink: 2;
+}
+.Order{
+    order: 0;
+}
+.Order1{
+    order: 1;
+}
+.Order2{
+    order: 0;
+}
+.self{
+    align-self: flex-start;
+}
+.end{
+    align-self: flex-end;
+}
+.center{
+    align-self: center;
+}
+.baseline{
+    align-self: baseline;
+}
+.stretch{
+    align-self: stretch;
+}
