@@ -23,25 +23,21 @@ button{
     width: 100px;
     margin-top: 50px;
     margin-right: 20px;
-
 }
 .s1{
     display: flex;
     justify-content: center;
-
 }
 .i2{
     width: 470px;
     height: 550px;
     margin-top: 100px;
-    
 }
 .box1{
    display: flex;
     justify-content: space-between;  
 }
 .box2{
- 
      margin-right: 450px;
      margin-top: 100px;
 }
@@ -70,3 +66,4 @@ button{
  padding: 20px;
   margin-bottom: 30px;
 }
+
