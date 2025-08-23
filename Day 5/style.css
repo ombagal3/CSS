@@ -24,7 +24,6 @@ border-radius: 5px;
 background: radial-gradient(circle,rgb(201, 247, 75), rgb(75, 231, 255));
 
 }
-
 .c{
 height:50px;
 width: 200px;
@@ -40,7 +39,6 @@ background: radial-gradient(circle,rgb(18, 108, 235), rgb(236, 136, 42));
     justify-content: space-between;
     align-items: center;
     margin-top: 200px;
-
 }
 .d{
     height: 50px;
@@ -130,4 +128,5 @@ background: radial-gradient(circle,rgb(18, 108, 235), rgb(236, 136, 42));
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 5px;
     background: conic-gradient(rgb(255, 122, 27), rgb(245, 255, 246), green);
+
 }
