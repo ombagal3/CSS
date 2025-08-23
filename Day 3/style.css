@@ -94,7 +94,6 @@
     flex-direction: column;
     box-shadow: 0px 0px 10px black;
     margin-bottom: 400px;
-
 }
 .box66{
  display: flex;
@@ -119,15 +118,11 @@
     color: grey;
     font-size: 20px;
 }
-
 #img1{
     height: 170px;
     width: 170px;
     border-radius: 6px;
     margin-right: 7px; 
-     
-  
- 
 }
 #n1{
     color: rgb(43, 43, 219);
@@ -158,4 +153,5 @@
 }
 .om{
     text-align: center;
+
 }
