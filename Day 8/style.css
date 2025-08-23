@@ -3,34 +3,29 @@
       background: rgb(244, 115, 51);
       padding: 10px;
     }
-
-    .inline {
+ .inline {
       display: inline;
       background: #ffc;
       padding: 5px;
     }
-
-    .inline-block {
+  .inline-block {
       display: inline-block;
       width: 100px;
       height: 60px;
       background: #cfc;
       margin: 5px;
     }
-
-    .flexbox {
+  .flexbox {
       display: flex;
       gap: 10px;
       background: #e0f7fa;
       padding: 10px;
     }
-
-    .flexbox div {
+   .flexbox div {
       background: #80deea;
       padding: 10px;
       flex: 1;
     }
-
     .gridbox {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -38,8 +33,7 @@
       background: #fff3e0;
       padding: 10px;
     }
-
-    .gridbox div {
+   .gridbox div {
       background: #ffb74d;
       padding: 10px;
     }
@@ -52,9 +46,9 @@
     .tablerow {
       display: table-row;
     }
-
     .tablecell {
       display: table-cell;
       padding: 10px;
       border: 1px solid #999;
+
     }
