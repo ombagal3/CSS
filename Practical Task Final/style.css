@@ -154,7 +154,6 @@ input{
     text-wrap: wrap;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-align: end;
-
 }
 .hh{
     font-size: 70px;
@@ -182,7 +181,6 @@ input{
     /* margin-left: 20px; */
     /* object-fit: cover; */
     border-radius: 5px;
-    
 }
 .i2{
     height: 150px;
@@ -236,7 +234,6 @@ input{
 .line{
     display: flex;
     flex-direction: column;
-    
 }
 i{
     font-size: 20px;
@@ -386,7 +383,6 @@ i{
 .siz{
     display: flex;
     justify-content: space-evenly;
-
 }
 .con{
     margin-top: 15px;
@@ -398,7 +394,6 @@ i{
     align-items: center;
     border-radius: 5px;
     border: solid grey 1px;
-
 }
 .bu{
     height: 25px;
@@ -457,7 +452,6 @@ footer{
     /* display: flex;
     flex-direction: row; */
     gap: 5px;
-    
 }
 img{
     height: 80px;
