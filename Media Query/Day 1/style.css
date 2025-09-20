@@ -1,0 +1,43 @@
+/* Default (desktop first) */
+h1 {
+  font-size: 40px;
+  color: navy;
+  text-align: center;
+}
+
+/* For tablets (medium devices) */
+@media (max-width: 992px) {
+  h1 {
+    font-size: 32px;
+    color: darkgreen;
+  }
+}
+
+/* For mobile landscape */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+    color: orange;
+  }
+}
+
+/* For mobile portrait */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 18px;
+    color: red;
+  }
+}
+
+
+@media (orientation: landscape) {
+  body {
+    background: lightblue;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    background: lightcoral;
+  }
+}
