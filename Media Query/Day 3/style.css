@@ -18,7 +18,6 @@ header {
     display: flex;
     flex-direction: column;
 }
-
 .nav {
     /* position: relative; */
     height: 80px;
@@ -33,15 +32,6 @@ header {
     width: 1220px;
     /* padding: 20px; */
 }
-/* .logo {
-    height: 50px;
-    width: 175px;
-    /* position: absolute; */
-    
-    /* left: 150px; */
-
-
-
 .right {
     /* position: absolute;
     left: 40%; */
@@ -776,3 +766,4 @@ footer {
     /* bottom: 0px; */
 
 }
+
