@@ -40,7 +40,6 @@ header {
     text-align: center;
     flex-direction: row;
     padding-top: 5px;
-
 }
 .broop {
     display: flex;
@@ -56,7 +55,6 @@ header {
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* padding: 10px; */
-
 }
 
 .sec1 {
@@ -67,17 +65,12 @@ header {
     width: 100%;
     display: flex;
     background-repeat: no-repeat;
-
-
 }
-
 .bg {
     height: 600px;
     /* width: 1380px; */
     width: 100%;
-
 }
-
 .bio {
 
     height: 190px;
@@ -120,19 +113,16 @@ h2 {
 }
 
 .sec2 {}
-
 .h11 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .box-a {
     padding-bottom: 20px;
     display: flex;
     justify-content: space-around;
 }
-
 .box-1 {
     align-items: center;
     display: flex;
@@ -146,12 +136,10 @@ h2 {
     box-shadow: 0px 10px 10px 10px rgb(234, 230, 230);
 
 }
-
 .aa {
     color: black;
     font-size: 50px;
 }
-
 .p1 {
     color: rgb(9, 9, 60);
     font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
@@ -163,23 +151,19 @@ h2 {
     margin-top: 50px;
     gap: 30px;
 }
-
 .sec3 {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-
 .parent {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
-
 .pic {
     position: relative;
-
     height: 420px;
     width: 300px;
     /* display: flex;
@@ -187,7 +171,6 @@ h2 {
     justify-content: center;
     align-items: center; */
 }
-
 .pc {
     height: 100%;
     width: 100%;
@@ -757,6 +740,7 @@ footer {
     /* position: relative; */
     /* bottom: 0px; */
 }
+
 
 
 
