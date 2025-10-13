@@ -6,13 +6,11 @@ display:flex;
 gap: 10px;
 justify-content: center;
 align-items: center;
- 
-}
+ }
 .chess-1{
     background: black;
     height: 120px;
     width: 150px;
-
 }
 .chess-2{
     background: white;
