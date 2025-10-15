@@ -37,6 +37,8 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+
+    
 }   
 .name{
     font-size: 45px;
@@ -155,3 +157,4 @@
     text-align: center;
 
 }
+
