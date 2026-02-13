@@ -12,6 +12,7 @@ header{
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 h2{
     color: black;
     text-align: center;
@@ -152,5 +153,6 @@ p{
 .r1:hover {
     transform: scale(1.2) rotate(10deg);
 }
+
 
 
